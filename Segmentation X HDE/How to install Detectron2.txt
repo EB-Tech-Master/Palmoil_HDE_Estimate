@@ -1,0 +1,15 @@
+Setup Detectron5 in PC
+COMPLETE DETECTRON2 TUTORIAL | Instance Segmentation, Object Detection, Keypoints Detection and more
+
+https://medium.com/@yogeshkumarpilli/how-to-install-detectron2-on-windows-10-or-11-2021-aug-with-the-latest-build-v0-5-c7333909676f
+
+	1. Create and install python Virtual Environment
+	• conda create -n detectron2_env python=3.7
+	• conda activate myenv
+	• pip install -r requirements.txt
+	
+	2. Install Dependencies
+	• Create New folder
+	• git clone https://github.com/facebookresearch/detectron2.git  # clone
+	• cd detectron2
+	• python -m pip install -e .
